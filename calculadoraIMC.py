@@ -25,7 +25,7 @@ if botao:
     elif IMC <= 39.9:
         classificacao = "Obesidade Severa (Grau II)"
     else:
-        classificacao = "Obesidade Mórbida (Grau III")
+        classificacao = "Obesidade Mórbida (Grau III)"
 
     st.title(f"Olá **{nome}**!")
     st.markdown(f"Idade: **{idade}** anos")
